@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>CSS3</title>
+		<style>
+			.a1{
+				width:100px;
+				height:100px;
+				background-color:yellow;
+				animation-name:abc;
+				animation-duration:2s;
+				animation-iteration-count: 2;
+				border-radius:50%;
+				
+			}
+			@keyframes abc
+			{
+				0%{background-color: yellow; margin-left:0; margin top:0;}
+				20%{background-color:red; margin-left: 200px; margin-top: 200px;}
+				60%{background-color:red; margin-left: 500px; margin-top: 300px;}
+				100%{background-color: pink; margin:left:0px; margin-top: 700px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1"></div>
+	</body>
+</html>
